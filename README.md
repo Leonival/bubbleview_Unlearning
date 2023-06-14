@@ -1,6 +1,17 @@
-# BubbleView: replacing eye-tracking to crowdsource image importance
+# Unlearning
 
-Demo: http://bubbleview.namwkim.org/
+Based on the BubbleView(http://bubbleview.namwkim.org/) and Beyond Memorability(https://vcg.seas.harvard.edu/publications/beyond-memorability-visualization-recognition-and-recall) experiement, we hope to design a new user study experiment for social media.
+
+## Experiment Design
+
+First aim: Eye-tracking (questionnaire) to figure out the important order when people read social media post?
+Second aim: What components of a social media post trigger cognitive bias?
+
+The experiment is further developed based on the Beyond Memorability experiment; there are three sections:
+1. Encoding Phase: Examine 20 social media posts related to climate change, for 10 seconds each.
+2. Recognition Phase: 20 posts (from the previous phase) and additional 20 new posts were presented in a blurred status, in a randomly permuted order for 2 seconds each with a 0.5 second fixation cross between posts. Participants pressed the spacebar anytime they recognized they existed the 1st phase.
+3. Trigger Phase: The posts being correctly recognized in the 2nd phase will be collected. Participants will describe the post in the blurred status with three keywords or three sentences. After describing each keyword or sentence, they should click on the blurred post to choose which element makes them leave this impression.
+4. Recall Phase: Participants were given 20 minutes in total to write as many descriptions of posts (bubble view) as possible. There was no limit to how much time or text length was spent on each post, nor any requirement to complete a certain number of visualizations.
 
 ## Usage Description  
 We briefly describe how to use the bubbleview code based on the demo. 
